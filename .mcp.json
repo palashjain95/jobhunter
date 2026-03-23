@@ -1,0 +1,36 @@
+{
+  "mcpServers": {
+    "gmail": {
+      "type": "http",
+      "url": "https://gmail.mcp.claude.com/mcp"
+    },
+    "google-calendar": {
+      "type": "http",
+      "url": "https://gcal.mcp.claude.com/mcp"
+    },
+    "ms365": {
+      "type": "http",
+      "url": "https://microsoft365.mcp.claude.com/mcp"
+    },
+    "granola": {
+      "type": "http",
+      "url": "https://mcp.granola.ai/mcp"
+    },
+    "fireflies": {
+      "type": "http",
+      "url": "https://api.fireflies.ai/mcp"
+    },
+    "jobspy": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["jobspy-mcp-server"]
+    },
+    "tavily": {
+      "type": "http",
+      "url": "",
+      "headers": {
+        "Authorization": "Bearer ${TAVILY_API_KEY}"
+      }
+    }
+  }
+}
