@@ -46,21 +46,18 @@ No memorizing commands. Just describe your situation.
 **Claude Code CLI:**
 
 ```bash
-# From marketplace
-claude plugin marketplace add palashjain95/claude-plugins
-claude plugin install jobhunter@claude-plugins
-
-# Or directly
-claude plugin install github:palashjain95/jobhunter
-```
-
-Or clone and run locally:
-
-```bash
 git clone https://github.com/palashjain95/jobhunter.git
 cd jobhunter
-claude --plugin-dir .
+claude
 ```
+
+> **Tip:** Add these to your `~/.zshrc` (or `~/.bashrc`):
+> ```bash
+> # Enable multi-agent teams (https://docs.anthropic.com/en/docs/claude-code/agent-teams)
+> export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
+> alias jobhunter="cd ~/jobhunter && claude"
+> ```
+> Then just type `jobhunter` from anywhere to start.
 
 ### Personalize (5 minutes)
 
