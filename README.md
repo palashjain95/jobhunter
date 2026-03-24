@@ -1,18 +1,17 @@
-# Claude Jobhunter
+# Jobhunter | Your entire recruiting lifecycle — from discovery to signed offer.
 
-<!-- [![GitHub Repo stars](https://img.shields.io/github/stars/palashjain95/jobhunter?style=social)](https://github.com/palashjain95/jobhunter) -->
-[![License](https://img.shields.io/github/license/palashjain95/jobhunter)](https://github.com/palashjain95/jobhunter/blob/main/LICENSE)
-[![GitHub Issues](https://img.shields.io/github/issues/palashjain95/jobhunter)](https://github.com/palashjain95/jobhunter/issues)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-palashjain-blue?style=social&logo=linkedin)](https://linkedin.com/in/palash-jain-2565b612a/)
+[License](https://github.com/palashjain95/jobhunter/blob/main/LICENSE)
+[GitHub Issues](https://github.com/palashjain95/jobhunter/issues)
+[LinkedIn](https://linkedin.com/in/palash-jain-2565b612a/)
 
 Your AI recruiting team — a researcher, a writer, and a coach working your job search end-to-end.
 
 Jobhunter lets you:
 
-- **Paste a job description** and get a fit score, tailored resume, cover letter, and interview prep — one package
-- **Say "find me roles"** and it searches across job boards for matches
-- **Say "I have an interview"** and it builds a company brief, question bank, and mock practice
-- **Say "I got an offer"** and it evaluates comp, compares alternatives, and scripts your negotiation
+- **Search across job boards** → matching roles from Indeed, LinkedIn, Glassdoor
+- **Tailor your application** → fit score, resume, cover letter, outreach
+- **Prep for any interview** → company brief, question bank, mock practice
+- **Evaluate and negotiate offers** → comp breakdown, market comparison, scripts
 
 Three AI agents. Thirteen skills. Your entire recruiting lifecycle — from discovery to signed offer.
 
@@ -24,30 +23,18 @@ Built for [Claude Code](https://code.claude.com) and [Cowork](https://claude.com
 
 Tell it what you need. The team handles the rest.
 
-| You say | What happens |
-|---------|-------------|
+
+| You say                          | What happens                                                                                            |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | "Here's a job I'm interested in" | Scores your fit, tailors your resume, writes your cover letter, preps interview questions — one package |
-| "Find me roles" | Searches Indeed, LinkedIn, Glassdoor, and company career pages for matches |
-| "I have an interview at Google" | Company intel brief + likely questions with STAR stories + mock practice |
-| "I just finished my interview" | Debriefs your performance honestly, drafts a personalized thank-you |
-| "I got an offer — is it good?" | Comp breakdown vs market data, negotiation strategy with scripts |
-| "What should I be doing?" | Pipeline dashboard showing every application, what's next, what's urgent |
+| "Find me roles"                  | Searches Indeed, LinkedIn, Glassdoor, and company career pages for matches                              |
+| "I have an interview at Google"  | Company intel brief + likely questions with STAR stories + mock practice                                |
+| "I just finished my interview"   | Debriefs your performance honestly, drafts a personalized thank-you                                     |
+| "I got an offer — is it good?"   | Comp breakdown vs market data, negotiation strategy with scripts                                        |
+| "What should I be doing?"        | Pipeline dashboard showing every application, what's next, what's urgent                                |
+
 
 No memorizing commands. Just describe your situation.
-
----
-
-## Your Team
-
-Three specialists, each with a clear role:
-
-**The Researcher** analyzes every job description against your actual background. Scores your fit honestly (0-100), identifies what's missing, optimizes your resume for ATS systems, and builds deep intel briefs on companies before you interview.
-
-**The Writer** crafts everything in your voice — cover letters, LinkedIn outreach, application essays, follow-up messages, rejection responses, and negotiation scripts. Reads your writing framework and voice samples so nothing sounds generic.
-
-**The Coach** owns your entire interview lifecycle. Preps question banks with your STAR stories mapped to likely questions. Runs realistic mock interviews with feedback. Debriefs you after interviews and drafts thank-you emails that reference specific conversation moments. Also handles networking — coffee chat prep, elevator pitch, and follow-up.
-
-When you paste a job description, all three work together: the Researcher scores fit first, the Writer tailors materials using that analysis, and the Coach preps interview questions in parallel. You get one synthesized package.
 
 ---
 
@@ -58,11 +45,13 @@ When you paste a job description, all three work together: the Researcher scores
 **Cowork (easiest):** Add via the plugin manager — works with local folders or GitHub sync.
 
 **Claude Code CLI:**
+
 ```bash
 claude plugin install github:palashjain95/jobhunter
 ```
 
 Or clone and run locally:
+
 ```bash
 git clone https://github.com/palashjain95/jobhunter.git
 cd jobhunter
@@ -81,59 +70,71 @@ Quick mode takes 5 minutes. Full mode takes 20 and captures more nuance. You can
 
 ---
 
-## Everything It Can Do
+## Your Team
 
-| Phase | What | How |
-|-------|------|-----|
-| **Find** | Search for matching roles across job boards and company pages | `/discover` |
-| **Score** | Score resume vs job description (0-100) and optimize for ATS | `/fit-analysis` |
-| **Apply** | Cover letter, LinkedIn message, referral ask, application essays | `/write-application` |
-| **Research** | Deep company brief — business model, news, culture, competition | `/company-research` |
-| **Prep** | Likely interview questions + STAR frameworks + questions to ask | `/interview-prep` |
-| **Practice** | Simulated mock interview with real-time feedback | `/mock-interview` |
-| **Network** | Coffee chat prep, elevator pitch, smart questions, follow-up | `/coffee-chat` |
-| **Debrief** | Post-interview performance analysis + personalized thank-you | `/interview-debrief` |
-| **Follow up** | Nudge stalled applications, handle rejections, withdraw gracefully | `/follow-up` |
-| **Offers** | Evaluate a single offer or compare multiple side-by-side | `/offer-analysis` |
-| **Negotiate** | Counter-offer strategy with email and phone scripts | `/negotiate` |
-| **Track** | Pipeline dashboard — all applications, next actions, risk flags | `/pipeline-status` |
+Three agents. Each owns a lane.
 
-You don't need to remember the slash commands. Just describe what you need.
+```
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                 YOU                                                      │
+│                                    "Here's a JD from Stripe"                                             │
+└────────────────────────────────────────────────┬─────────────────────────────────────────────────────────┘
+                                                 │
+                  ┌──────────────────────────────┼──────────────────────────────┐
+                  ▼                              ▼                              ▼
+┌──────────────────────────────────┐ ┌──────────────────────────────────┐ ┌──────────────────────────────────┐
+│         THE RESEARCHER           │ │           THE WRITER             │ │           THE COACH              │
+│         ──────────────           │ │          ──────────              │ │          ─────────               │
+│                                  │ │                                  │ │                                  │
+│    /discover                     │ │    /write-application            │ │    /interview-prep               │
+│    Find matching roles           │ │    Cover letter, outreach,       │ │    Questions + STAR              │
+│            │                     │ │    essays                        │ │    stories mapped                │
+│            ▼                     │ │            │                     │ │            │                     │
+│    /fit-analysis                 │ │            ▼                     │ │            ▼                     │
+│    Score fit (0-100),            │ │    /follow-up                    │ │    /mock-interview               │
+│    optimize for ATS              │ │    Nudge stalled apps,           │ │    Practice with                 │
+│            │                     │ │    handle rejections             │ │    real-time feedback            │
+│            ▼                     │ │            │                     │ │            │                     │
+│    /company-research             │ │            ▼                     │ │            ▼                     │
+│    Intel brief, recent           │ │    /offer-analysis               │ │    /interview-debrief            │
+│    news, culture signals         │ │    Comp vs market data,          │ │    Performance analysis          │
+│                                  │ │    compare multiple offers       │ │    + thank-you email             │
+│                                  │ │            │                     │ │            │                     │
+│                                  │ │            ▼                     │ │            ▼                     │
+│                                  │ │    /negotiate                    │ │    /coffee-chat                  │
+│                                  │ │    Counter-offer strategy        │ │    Networking prep,              │
+│                                  │ │    + phone/email scripts         │ │    elevator pitch                │
+│                                  │ │                                  │ │                                  │
+│                                  │ │    All in YOUR voice             │ │    Full interview lifecycle      │
+│                                  │ │                                  │ │                                  │
+└───────────────┬──────────────────┘ └───────────────┬──────────────────┘ └───────────────┬──────────────────┘
+                │                                    │                                    │
+                └────────────────────────────────────┼────────────────────────────────────┘
+                                                     ▼
+                                       ┌──────────────────────────────┐
+                                       │       /pipeline-status       │
+                                       │       Track everything       │
+                                       └──────────────────────────────┘
+```
 
 ---
 
 ## Interview Frameworks
 
-The coach loads company-specific prep automatically:
-
-**Companies:** Amazon (Leadership Principles), Google (Googliness), Meta (Product Execution), Apple (Design Taste), Microsoft (Growth Mindset), Netflix (Keeper Test)
-
-**Career paths:** McKinsey/Bain/BCG (PEI + Case), Private Equity (Deal Discussion + LBO), Finance (IB, Asset Management, Corp Fin), Marketplace (Uber/DoorDash), Startups (Founder Mindset)
-
-General behavioral framework as fallback. Add your own in `.claude/resources/`.
-
----
-
-## How the Team Coordinates
+The coach auto-loads the right framework based on your target:
 
 ```
-You: "Here's a JD from Stripe"
-            ↓
-    The Researcher
-    scores fit, finds gaps, checks ATS
-            ↓
-    The Writer                    The Coach
-    tailors resume,               builds question bank,
-    writes cover letter,          maps your STAR stories,
-    drafts outreach               preps follow-up Qs
-            ↓                           ↓
-    ──────── synthesized into one package ────────
-            ↓
-    Fit score + resume + cover letter + outreach
-    + interview prep + company intel
+COMPANIES                           CAREER PATHS
+─────────                           ────────────
+Amazon    → Leadership Principles   MBB         → PEI + Case Interview
+Google    → Googliness              PE          → Deal Discussion + LBO
+Meta      → Product Execution       Finance     → Valuation + Modeling
+Apple     → Design Taste            Marketplace → Uber/DoorDash Style
+Microsoft → Growth Mindset          Startups    → Founder Mindset
+Netflix   → Keeper Test             General     → Behavioral Fallback
 ```
 
-Or use any skill individually — no team coordination needed.
+Add your own frameworks in `.claude/resources/`.
 
 ---
 
@@ -141,12 +142,14 @@ Or use any skill individually — no team coordination needed.
 
 Everything works out of the box. Connect your tools for an even better experience.
 
-| What you do | Without connections | With connections |
-|------------|-------------------|-----------------|
-| Find roles | Web search | Searches Indeed + LinkedIn + Glassdoor + ZipRecruiter simultaneously |
-| Send thank-yous | Copy-paste the text | Creates a draft in Gmail/Outlook — you review before sending |
-| Check interview schedule | You tell it | Auto-detects upcoming interviews from your calendar |
-| Debrief after interview | You describe what happened | Auto-pulls the transcript and analyzes specific moments |
+
+| What you do              | Without connections        | With connections                                                     |
+| ------------------------ | -------------------------- | -------------------------------------------------------------------- |
+| Find roles               | Web search                 | Searches Indeed + LinkedIn + Glassdoor + ZipRecruiter simultaneously |
+| Send thank-yous          | Copy-paste the text        | Creates a draft in Gmail/Outlook — you review before sending         |
+| Check interview schedule | You tell it                | Auto-detects upcoming interviews from your calendar                  |
+| Debrief after interview  | You describe what happened | Auto-pulls the transcript and analyzes specific moments              |
+
 
 See [CONNECTORS.md](CONNECTORS.md) for setup.
 
@@ -185,6 +188,6 @@ The plugin ships the team's intelligence. Your personal content stays on your ma
 
 ---
 
-## License
+## Example
 
-MIT
+Jobhunter team in action
