@@ -1,6 +1,6 @@
 {
   "name": "jobhunter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Your AI recruiting team — scores fit, tailors resume, preps interviews, negotiates offers. Run /personalize to get started.",
   "author": {
     "name": "Palash Jain"
