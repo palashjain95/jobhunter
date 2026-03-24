@@ -14,26 +14,8 @@ Jobhunter lets you:
 
 Three AI agents. Thirteen skills. Your entire recruiting lifecycle — from discovery to signed offer.
 
-Built for Agentic Teams on [Claude Code](https://docs.anthropic.com/en/docs/claude-code).
-
----
-
-## What It Does
-
-Tell it what you need. The team handles the rest.
-
-
-| You say                          | What happens                                                                                            |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| "Here's a job I'm interested in" | Scores your fit, tailors your resume, writes your cover letter, preps interview questions — one package |
-| "Find me roles"                  | Searches Indeed, LinkedIn, Glassdoor, and company career pages for matches                              |
-| "I have an interview at Google"  | Company intel brief + likely questions with STAR stories + mock practice                                |
-| "I just finished my interview"   | Debriefs your performance honestly, drafts a personalized thank-you                                     |
-| "I got an offer — is it good?"   | Comp breakdown vs market data, negotiation strategy with scripts                                        |
-| "What should I be doing?"        | Pipeline dashboard showing every application, what's next, what's urgent                                |
-
-
-No memorizing commands. Just describe your situation.
+## Built to work with [Claude Agent Teams](https://code.claude.com/docs/en/agent-teams)
+### Coordinate multiple Claude Code instances working together as a team, with shared tasks, inter-agent messaging, and centralized management.
 
 ---
 
@@ -75,7 +57,7 @@ Three agents. Each owns a lane.
 ```
 +--------------------------+  +--------------------------+  +--------------------------+
 |     THE RESEARCHER       |  |       THE WRITER         |  |       THE COACH          |
-|     --------------       |  |      ----------          |  |      ---------           |
+|--------------------------|  |--------------------------|  |--------------------------|
 |                          |  |                          |  |                          |
 |  /discover               |  |  /write-application      |  |  /interview-prep         |
 |  Find matching roles     |  |  Cover letter, outreach, |  |  Questions + STAR        |
@@ -127,6 +109,19 @@ Netflix   → Keeper Test             General     → Behavioral Fallback
 ```
 
 Add your own frameworks in `.claude/resources/`.
+
+---
+
+### Just tell you recruitment need to the team
+
+| You say                               | What happens                                                                                            |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| "Here's a job I'm interested in"      | Scores your fit, tailors your resume, writes your cover letter, preps interview questions — one package |
+| "Find me roles"                       | Searches Indeed, LinkedIn, Glassdoor, and company career pages for matches                              |
+| "I have an interview at Google"       | Company intel brief + likely questions with STAR stories + mock practice                                |
+| "I just finished my interview"        | Debriefs your performance honestly, drafts a personalized thank-you                                     |
+| "I got an offer — is it good?"        | Comp breakdown vs market data, negotiation strategy with scripts                                        |
+| "What should I be doing?"             | Pipeline dashboard showing every application, what's next, what's urgent                                |
 
 ---
 
