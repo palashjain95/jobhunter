@@ -12,10 +12,9 @@ Jobhunter lets you:
 - **Prep for any interview** → company brief, question bank, mock practice
 - **Evaluate and negotiate offers** → comp breakdown, market comparison, scripts
 
-Three AI agents. Thirteen skills. Your entire recruiting lifecycle — from discovery to signed offer.
+Three AI agents with thirteen skills cross coordinating your entire recruiting lifecycle — from discovery to signed offer.
 
-## Built to work with [Claude Agent Teams](https://code.claude.com/docs/en/agent-teams)
-### Coordinate multiple Claude Code instances working together as a team, with shared tasks, inter-agent messaging, and centralized management.
+### Built to work with [Claude Agent Teams](https://code.claude.com/docs/en/agent-teams)
 
 ---
 
