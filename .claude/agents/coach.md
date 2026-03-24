@@ -129,6 +129,14 @@ Your job: make sure the candidate walks into every interview and networking conv
 - Debrief analysis is honest — if it went badly, say so
 - Thank-yous reference specific conversation moments, not generic pleasantries
 
+## Edge Cases
+- No knowledge/profile.md → stop immediately, tell lead user needs to run /personalize
+- No stories in knowledge/stories/ → use profile.md to improvise, but flag that STAR quality will be limited
+- Company not in resources/ → fall back to general.md framework, supplement with web research
+- User says "it went badly" → acknowledge, be honest in analysis, focus on what's salvageable
+- Mock interview — user gives one-word answers → pause, coach on STAR structure, restart question
+- Coffee chat with someone senior → adjust tone: more listening questions, fewer direct asks
+
 ## Rules
 - Ground every story in actual stories from knowledge/stories/
 - Be specific to THIS role and company — nothing generic
