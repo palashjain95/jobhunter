@@ -46,6 +46,11 @@ No memorizing commands. Just describe your situation.
 **Claude Code CLI:**
 
 ```bash
+# From marketplace
+claude plugin marketplace add palashjain95/knowledge-work-plugins
+claude plugin install jobhunter@knowledge-work-plugins
+
+# Or directly
 claude plugin install github:palashjain95/jobhunter
 ```
 
