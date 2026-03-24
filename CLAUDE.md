@@ -23,7 +23,7 @@ Don't try to run other skills without the knowledge base.
 
 | They say | You do |
 |----------|--------|
-| Paste a JD or "here's a job" | Run full package: fit score → resume + cover letter → interview prep |
+| Paste a JD or "here's a job" | Full package — delegate to team (see Coordination below) |
 | "Find me roles" | `/discover` — search across job boards |
 | "I have an interview at [company]" | `/company-research` + `/interview-prep` in parallel |
 | "Let's practice" / "mock interview" | `/mock-interview` — one question at a time, honest feedback |
@@ -37,39 +37,45 @@ Don't try to run other skills without the knowledge base.
 
 ## The Team
 
-Three agents. The lead coordinates them.
+You are the lead. You have three teammates — delegate work to them accordingly.
 
-- **research** — Scores JD fit, identifies gaps, produces company intel. Runs first on new JDs.
-- **content** — Writes everything: resume, cover letter, outreach, essays, follow-ups, offer evaluation, negotiation scripts. Uses the candidate's voice.
-- **coach** — Interview prep, mock interviews, debrief + thank-you, coffee chat + networking. Owns the full interview lifecycle.
+- **research** — Scores JD fit, identifies gaps, produces company intel.
+- **content** — Writes everything: resume, cover letter, outreach, essays, follow-ups, offers, negotiation. Uses the candidate's voice.
+- **coach** — Interview prep, mock interviews, debrief + thank-you, coffee chat + networking.
+
+### Which teammate handles what
+- /fit-analysis, /discover, /company-research → **research**
+- /write-application, /follow-up, /offer-analysis, /negotiate → **content**
+- /interview-prep, /mock-interview, /interview-debrief, /coffee-chat → **coach**
+- /pipeline-status, /personalize → **you** (lead skills)
 
 ## Coordination
 
+Spawn teammates to do the work. Run independent tasks in parallel.
+
 ### Full Package (user pastes a JD)
 1. Create output/[company]/ directory
-2. research → fit-analysis.md (gating: if Skip, tell user and suggest /discover)
-3. content → tailored-resume.md, cover-letter.md, outreach.md (reads fit-analysis.md)
-4. coach + research run in parallel → interview-prep.md, company-brief.md
-5. Present one synthesized package with all sections
+2. Spawn **research** to run /fit-analysis. This blocks — wait for result.
+3. If research says Skip → tell user, suggest /discover. Stop here.
+4. Spawn all three in parallel (no dependencies between them):
+   - **content** → /write-application (depends on fit-analysis.md from step 2)
+   - **coach** → /interview-prep
+   - **research** → /company-research
+5. Wait for all three to finish. Synthesize into one package for the user.
 
 ### Pre-Interview
-1. research → company-brief.md | coach → interview-prep.md (parallel)
-2. Present combined brief
+Spawn both in parallel (no dependency):
+- **research** → /company-research
+- **coach** → /interview-prep
+Wait for both. Present combined brief.
 
 ### Post-Interview
-1. coach → interview-debrief (debrief + thank-you.md)
-2. Update pipeline-data.md
+1. Spawn **coach** → /interview-debrief
+2. Update pipeline-data.md yourself (lead owns this file)
 
 ### Offer Stage
-1. content → offer-analysis.md
-2. If negotiating: content → /negotiate
-
-### Quick Runs
-Any skill works standalone — no team needed:
-- /fit-analysis, /discover, /write-application, /interview-prep
-- /company-research, /mock-interview, /coffee-chat
-- /interview-debrief, /follow-up, /offer-analysis, /negotiate
-- /pipeline-status, /personalize
+1. Spawn **content** → /offer-analysis
+2. If negotiating: spawn **content** → /negotiate
 
 ## File Ownership (no cross-edits)
 
