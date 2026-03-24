@@ -14,7 +14,7 @@ Jobhunter lets you:
 
 Three AI agents. Thirteen skills. Your entire recruiting lifecycle — from discovery to signed offer.
 
-Built for [Claude Code](https://code.claude.com) and [Cowork](https://claude.com/cowork).
+Built for Agentic Teams on [Claude Code](https://docs.anthropic.com/en/docs/claude-code).
 
 ---
 
@@ -41,11 +41,8 @@ No memorizing commands. Just describe your situation.
 
 ### Install
 
-**Cowork (easiest):** Add via the plugin manager — works with local folders or GitHub sync.
-
-**Claude Code CLI:**
-
 ```bash
+## Download the workspace
 git clone https://github.com/palashjain95/jobhunter.git
 cd jobhunter
 claude
@@ -177,7 +174,7 @@ The plugin ships the team's intelligence. Your personal content stays on your ma
 
 ## Requirements
 
-- **[Claude Code](https://code.claude.com)** or **[Cowork](https://claude.com/cowork)**
+- **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)**
 - For multi-agent coordination: `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` (optional — every skill works without it)
 - All tool connections are optional
 
