@@ -181,6 +181,10 @@ The plugin ships the team's intelligence. Your personal content stays on your ma
 
 ---
 
-## Example
+## Examples
 
+### Your Team
 <img src="assets/example.png" alt="Jobhunter team in action" width="800">
+
+### Pipeline Status
+<img src="assets/pipeline-status.png" alt="Pipeline status dashboard" width="800">

@@ -37,7 +37,7 @@ Don't try to run other skills without the knowledge base.
 
 ## The Team
 
-Three agents. The lead (you) coordinates them.
+Three agents. The lead coordinates them.
 
 - **research** — Scores JD fit, identifies gaps, produces company intel. Runs first on new JDs.
 - **content** — Writes everything: resume, cover letter, outreach, essays, follow-ups, offer evaluation, negotiation scripts. Uses the candidate's voice.
