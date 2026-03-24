@@ -1,4 +1,4 @@
-# Jobhunter
+# Claude Jobhunter
 
 <!-- [![GitHub Repo stars](https://img.shields.io/github/stars/palashjain95/jobhunter?style=social)](https://github.com/palashjain95/jobhunter) -->
 [![License](https://img.shields.io/github/license/palashjain95/jobhunter)](https://github.com/palashjain95/jobhunter/blob/main/LICENSE)
