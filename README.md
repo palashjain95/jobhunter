@@ -1,6 +1,6 @@
 # Jobhunter
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/palashjain95/jobhunter?style=social)](https://github.com/palashjain95/jobhunter)
+<!-- [![GitHub Repo stars](https://img.shields.io/github/stars/palashjain95/jobhunter?style=social)](https://github.com/palashjain95/jobhunter) -->
 [![License](https://img.shields.io/github/license/palashjain95/jobhunter)](https://github.com/palashjain95/jobhunter/blob/main/LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/palashjain95/jobhunter)](https://github.com/palashjain95/jobhunter/issues)
 ![GitHub Release](https://img.shields.io/github/v/release/palashjain95/jobhunter)
