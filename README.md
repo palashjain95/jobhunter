@@ -47,8 +47,8 @@ No memorizing commands. Just describe your situation.
 
 ```bash
 # From marketplace
-claude plugin marketplace add palashjain95/knowledge-work-plugins
-claude plugin install jobhunter@knowledge-work-plugins
+claude plugin marketplace add palashjain95/palash-jain-plugins
+claude plugin install jobhunter@palash-jain-plugins
 
 # Or directly
 claude plugin install github:palashjain95/jobhunter
