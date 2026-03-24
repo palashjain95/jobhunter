@@ -1,5 +1,5 @@
 {
-  "name": "cmc",
+  "name": "jobhunter",
   "version": "1.0.0",
   "description": "Your AI Career Management Center — scores fit, tailors resume, preps interviews, negotiates offers. Three agents working your job search like a recruiting team. Run /personalize to get started.",
   "author": {
@@ -15,6 +15,6 @@
     "negotiation",
     "networking",
     "mba",
-    "cmc"
+    "jobhunter"
   ]
 }

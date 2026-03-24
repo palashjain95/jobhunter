@@ -1,4 +1,4 @@
-# CMC
+# Jobhunter
 
 Your AI Career Management Center. An analyst, a writer, and a coach — recruiting support available anytime.
 
@@ -47,13 +47,13 @@ When you paste a job description, all three work together: the Researcher scores
 
 **Claude Code CLI:**
 ```bash
-claude plugin install github:palashjain/cmc
+claude plugin install github:palashjain/jobhunter
 ```
 
 Or clone and run locally:
 ```bash
-git clone https://github.com/palashjain/cmc.git
-cd cmc
+git clone https://github.com/palashjain/jobhunter.git
+cd jobhunter
 claude --plugin-dir .
 ```
 
@@ -137,6 +137,20 @@ Everything works out of the box. Connect your tools for an even better experienc
 | Debrief after interview | You describe what happened | Auto-pulls the transcript and analyzes specific moments |
 
 See [CONNECTORS.md](CONNECTORS.md) for setup.
+
+---
+
+## Use It On the Go
+
+Start a task on your laptop, check progress from your phone. Claude Code's [Remote Control](https://code.claude.com/docs/en/remote-control) lets you connect any session to the Claude web or mobile app.
+
+```
+/remote
+```
+
+Scan the QR code or open the URL on another device. Your full session — agents, knowledge base, MCP servers — stays running locally. You just get a window into it from anywhere.
+
+**Example:** Paste a JD at your desk, kick off the full package, run `/remote`, walk to class. Check your phone — fit analysis is done, cover letter is ready, interview prep is building. Type "mock interview me" from your phone. The coach runs on your laptop, the conversation happens in your hand.
 
 ---
 
