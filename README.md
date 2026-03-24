@@ -4,11 +4,18 @@
 [![License](https://img.shields.io/github/license/palashjain95/jobhunter)](https://github.com/palashjain95/jobhunter/blob/main/LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/palashjain95/jobhunter)](https://github.com/palashjain95/jobhunter/issues)
 ![GitHub Release](https://img.shields.io/github/v/release/palashjain95/jobhunter)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-palashjain-blue?style=social&logo=linkedin)](https://linkedin.com/in/palashjain)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-palashjain-blue?style=social&logo=linkedin)](https://linkedin.com/in/palash-jain-2565b612a/)
 
-Your AI Career Management Center. An analyst, a writer, and a coach — recruiting support available anytime.
+Your AI recruiting team — a researcher, a writer, and a coach working your job search end-to-end.
 
-Paste a job description and the team scores your fit, tailors your resume, writes your cover letter, preps you for interviews, and tracks your pipeline — all grounded in your actual experience.
+Jobhunter lets you:
+
+- **Paste a job description** and get a fit score, tailored resume, cover letter, and interview prep — one package
+- **Say "find me roles"** and it searches across job boards for matches
+- **Say "I have an interview"** and it builds a company brief, question bank, and mock practice
+- **Say "I got an offer"** and it evaluates comp, compares alternatives, and scripts your negotiation
+
+Three AI agents. Thirteen skills. Your entire recruiting lifecycle — from discovery to signed offer.
 
 Built for [Claude Code](https://code.claude.com) and [Cowork](https://claude.com/cowork).
 

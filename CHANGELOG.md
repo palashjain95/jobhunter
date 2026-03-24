@@ -1,6 +1,6 @@
-# Changelog — CMC (Career Management Center)
+# Changelog — Jobhunter
 
-## 1.0.0 (2026-03-23)
+## 0.1.0 (2026-03-23)
 
 Initial release.
 
