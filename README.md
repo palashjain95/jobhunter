@@ -3,7 +3,6 @@
 <!-- [![GitHub Repo stars](https://img.shields.io/github/stars/palashjain95/jobhunter?style=social)](https://github.com/palashjain95/jobhunter) -->
 [![License](https://img.shields.io/github/license/palashjain95/jobhunter)](https://github.com/palashjain95/jobhunter/blob/main/LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/palashjain95/jobhunter)](https://github.com/palashjain95/jobhunter/issues)
-![GitHub Release](https://img.shields.io/github/v/release/palashjain95/jobhunter)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-palashjain-blue?style=social&logo=linkedin)](https://linkedin.com/in/palash-jain-2565b612a/)
 
 Your AI recruiting team — a researcher, a writer, and a coach working your job search end-to-end.
