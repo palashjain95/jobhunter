@@ -1,9 +1,9 @@
 # Jobhunter
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/palashjain/jobhunter?style=social)](https://github.com/palashjain/jobhunter)
-[![License](https://img.shields.io/github/license/palashjain/jobhunter)](https://github.com/palashjain/jobhunter/blob/main/LICENSE)
-[![GitHub Issues](https://img.shields.io/github/issues/palashjain/jobhunter)](https://github.com/palashjain/jobhunter/issues)
-![GitHub Release](https://img.shields.io/github/v/release/palashjain/jobhunter)
+[![GitHub Repo stars](https://img.shields.io/github/stars/palashjain95/jobhunter?style=social)](https://github.com/palashjain95/jobhunter)
+[![License](https://img.shields.io/github/license/palashjain95/jobhunter)](https://github.com/palashjain95/jobhunter/blob/main/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/palashjain95/jobhunter)](https://github.com/palashjain95/jobhunter/issues)
+![GitHub Release](https://img.shields.io/github/v/release/palashjain95/jobhunter)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-palashjain-blue?style=social&logo=linkedin)](https://linkedin.com/in/palashjain)
 
 Your AI Career Management Center. An analyst, a writer, and a coach — recruiting support available anytime.
@@ -53,12 +53,12 @@ When you paste a job description, all three work together: the Researcher scores
 
 **Claude Code CLI:**
 ```bash
-claude plugin install github:palashjain/jobhunter
+claude plugin install github:palashjain95/jobhunter
 ```
 
 Or clone and run locally:
 ```bash
-git clone https://github.com/palashjain/jobhunter.git
+git clone https://github.com/palashjain95/jobhunter.git
 cd jobhunter
 claude --plugin-dir .
 ```
