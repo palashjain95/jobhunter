@@ -1,8 +1,7 @@
 # Jobhunter | Your entire recruiting lifecycle — from discovery to signed offer.
 
-[License](https://github.com/palashjain95/jobhunter/blob/main/LICENSE)
-[GitHub Issues](https://github.com/palashjain95/jobhunter/issues)
-[LinkedIn](https://linkedin.com/in/palash-jain-2565b612a/)
+<!-- badges -->
+[![License](https://img.shields.io/github/license/palashjain95/jobhunter)](https://github.com/palashjain95/jobhunter/blob/main/LICENSE) [![GitHub Issues](https://img.shields.io/github/issues/palashjain95/jobhunter)](https://github.com/palashjain95/jobhunter/issues) [![LinkedIn](https://img.shields.io/badge/LinkedIn-palashjain-blue?style=social&logo=linkedin)](https://linkedin.com/in/palash-jain-2565b612a/)
 
 Your AI recruiting team — a researcher, a writer, and a coach working your job search end-to-end.
 
@@ -75,46 +74,40 @@ Quick mode takes 5 minutes. Full mode takes 20 and captures more nuance. You can
 Three agents. Each owns a lane.
 
 ```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                                 YOU                                                      │
-│                                    "Here's a JD from Stripe"                                             │
-└────────────────────────────────────────────────┬─────────────────────────────────────────────────────────┘
-                                                 │
-                  ┌──────────────────────────────┼──────────────────────────────┐
-                  ▼                              ▼                              ▼
-┌──────────────────────────────────┐ ┌──────────────────────────────────┐ ┌──────────────────────────────────┐
-│         THE RESEARCHER           │ │           THE WRITER             │ │           THE COACH              │
-│         ──────────────           │ │          ──────────              │ │          ─────────               │
-│                                  │ │                                  │ │                                  │
-│    /discover                     │ │    /write-application            │ │    /interview-prep               │
-│    Find matching roles           │ │    Cover letter, outreach,       │ │    Questions + STAR              │
-│            │                     │ │    essays                        │ │    stories mapped                │
-│            ▼                     │ │            │                     │ │            │                     │
-│    /fit-analysis                 │ │            ▼                     │ │            ▼                     │
-│    Score fit (0-100),            │ │    /follow-up                    │ │    /mock-interview               │
-│    optimize for ATS              │ │    Nudge stalled apps,           │ │    Practice with                 │
-│            │                     │ │    handle rejections             │ │    real-time feedback            │
-│            ▼                     │ │            │                     │ │            │                     │
-│    /company-research             │ │            ▼                     │ │            ▼                     │
-│    Intel brief, recent           │ │    /offer-analysis               │ │    /interview-debrief            │
-│    news, culture signals         │ │    Comp vs market data,          │ │    Performance analysis          │
-│                                  │ │    compare multiple offers       │ │    + thank-you email             │
-│                                  │ │            │                     │ │            │                     │
-│                                  │ │            ▼                     │ │            ▼                     │
-│                                  │ │    /negotiate                    │ │    /coffee-chat                  │
-│                                  │ │    Counter-offer strategy        │ │    Networking prep,              │
-│                                  │ │    + phone/email scripts         │ │    elevator pitch                │
-│                                  │ │                                  │ │                                  │
-│                                  │ │    All in YOUR voice             │ │    Full interview lifecycle      │
-│                                  │ │                                  │ │                                  │
-└───────────────┬──────────────────┘ └───────────────┬──────────────────┘ └───────────────┬──────────────────┘
-                │                                    │                                    │
-                └────────────────────────────────────┼────────────────────────────────────┘
-                                                     ▼
-                                       ┌──────────────────────────────┐
-                                       │       /pipeline-status       │
-                                       │       Track everything       │
-                                       └──────────────────────────────┘
++--------------------------+  +--------------------------+  +--------------------------+
+|     THE RESEARCHER       |  |       THE WRITER         |  |       THE COACH          |
+|     --------------       |  |      ----------          |  |      ---------           |
+|                          |  |                          |  |                          |
+|  /discover               |  |  /write-application      |  |  /interview-prep         |
+|  Find matching roles     |  |  Cover letter, outreach, |  |  Questions + STAR        |
+|         |                |  |  essays                  |  |  stories mapped          |
+|         v                |  |         |                |  |         |                |
+|  /fit-analysis           |  |         v                |  |         v                |
+|  Score fit (0-100),      |  |  /follow-up              |  |  /mock-interview         |
+|  optimize for ATS        |  |  Nudge stalled apps,     |  |  Practice with           |
+|         |                |  |  handle rejections       |  |  real-time feedback      |
+|         v                |  |         |                |  |         |                |
+|  /company-research       |  |         v                |  |         v                |
+|  Intel brief, recent     |  |  /offer-analysis         |  |  /interview-debrief      |
+|  news, culture signals   |  |  Comp vs market,         |  |  Performance analysis    |
+|                          |  |  compare offers          |  |  + thank-you email       |
+|                          |  |         |                |  |         |                |
+|                          |  |         v                |  |         v                |
+|                          |  |  /negotiate              |  |  /coffee-chat            |
+|                          |  |  Counter-offer +         |  |  Networking prep,        |
+|                          |  |  scripts                 |  |  elevator pitch          |
+|                          |  |                          |  |                          |
+|                          |  |  All in YOUR voice       |  |  Full interview          |
+|                          |  |                          |  |  lifecycle               |
++------------+-------------+  +------------+-------------+  +------------+-------------+
+             |                             |                             |
+             +-----------------------------+-----------------------------+
+                                           |
+                                           v
+                              +------------------------+
+                              |   /pipeline-status     |
+                              |   Track everything     |
+                              +------------------------+
 ```
 
 ---
@@ -190,4 +183,4 @@ The plugin ships the team's intelligence. Your personal content stays on your ma
 
 ## Example
 
-Jobhunter team in action
+<img src="assets/example.png" alt="Jobhunter team in action" width="800">
