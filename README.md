@@ -23,23 +23,25 @@ Three AI agents with thirteen skills cross coordinating your entire recruiting l
 ### Install
 
 ```bash
-# Add marketplace (one time)
-claude plugin marketplace add palashjain95/claude-plugins
-
-# Install
-claude plugin install jobhunter@palashjain95-plugins
+git clone https://github.com/palashjain95/jobhunter.git
+cd jobhunter
+claude
 ```
 
-> **Tip:** Add this to your `~/.zshrc` (or `~/.bashrc`) to enable multi-agent teams:
+> **Tip:** Add these to your `~/.zshrc` (or `~/.bashrc`):
 > ```bash
-> # https://docs.anthropic.com/en/docs/claude-code/agent-teams
+> # Enable multi-agent teams (https://docs.anthropic.com/en/docs/claude-code/agent-teams)
 > export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
+>
+> # Quick launch from anywhere
+> alias jobhunter="cd ~/jobhunter && claude"
 > ```
+> Then just type `jobhunter` from anywhere to launch your recruiting team.
 
 ### Personalize (5 minutes)
 
 ```
-/jobhunter:personalize
+/personalize
 ```
 
 Drop your resume, answer a few questions about your background and goals, and the team learns who you are. This creates your knowledge base — profile, STAR stories, writing style, negotiation preferences. Everything stays on your machine.
@@ -106,7 +108,7 @@ Microsoft → Growth Mindset          Startups    → Founder Mindset
 Netflix   → Keeper Test             General     → Behavioral Fallback
 ```
 
-Add your own frameworks in `resources/`.
+Add your own frameworks in `.claude/resources/`.
 
 ---
 

@@ -28,7 +28,7 @@ allowed-tools: [Read, Grep, Glob]
 - knowledge/stories/ — to evaluate if stories are used well
 - knowledge/frameworks/writing-framework.md — to evaluate structure
 - If available: output/[company]/interview-prep.md — prepared questions
-- ${CLAUDE_PLUGIN_ROOT}/resources/ — detect the company or career path and load
+- ${CLAUDE_PLUGIN_ROOT}/.claude/resources/ — detect the company or career path and load
   the matching framework. Search companies/ (e.g. amazon.md), then paths/ (e.g.
   consulting.md for case + PEI, pe.md for deal discussion), then general.md as fallback.
 
