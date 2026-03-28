@@ -27,7 +27,7 @@ Three AI agents with thirteen skills cross coordinating your entire recruiting l
 claude plugin marketplace add palashjain95/claude-plugins
 
 # Install
-claude plugin install jobhunter@palashjain95
+claude plugin install jobhunter@palashjain95-plugins
 ```
 
 > **Tip:** Add this to your `~/.zshrc` (or `~/.bashrc`) to enable multi-agent teams:
@@ -39,7 +39,7 @@ claude plugin install jobhunter@palashjain95
 ### Personalize (5 minutes)
 
 ```
-/personalize
+/jobhunter:personalize
 ```
 
 Drop your resume, answer a few questions about your background and goals, and the team learns who you are. This creates your knowledge base — profile, STAR stories, writing style, negotiation preferences. Everything stays on your machine.
