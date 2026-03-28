@@ -23,15 +23,18 @@ Three AI agents with thirteen skills cross coordinating your entire recruiting l
 ### Install
 
 ```bash
-claude plugin install github:palashjain95/jobhunter
+# Add marketplace (one time)
+claude plugin marketplace add palashjain95/claude-plugins
+
+# Install
+claude plugin install jobhunter@palashjain95
 ```
 
-> **Tip:** Add these to your `~/.zshrc` (or `~/.bashrc`):
+> **Tip:** Add this to your `~/.zshrc` (or `~/.bashrc`) to enable multi-agent teams:
 > ```bash
-> # Enable multi-agent teams (https://docs.anthropic.com/en/docs/claude-code/agent-teams)
+> # https://docs.anthropic.com/en/docs/claude-code/agent-teams
 > export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
 > ```
-> Then just type `jobhunter` from anywhere to launch your recruiting team.
 
 ### Personalize (5 minutes)
 
