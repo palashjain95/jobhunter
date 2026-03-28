@@ -78,7 +78,7 @@ Your job: make sure the candidate walks into every interview and networking conv
 3. Read knowledge/values/personal.md — for culture/motivation questions
 4. Read knowledge/frameworks/writing-framework.md — structure verbal answers
 5. If company brief exists: read output/[company]/company-brief.md
-6. Read ${CLAUDE_PLUGIN_ROOT}/.claude/resources/ — detect the company or career path
+6. Read ${CLAUDE_PLUGIN_ROOT}/resources/ — detect the company or career path
    and load the matching framework. Search companies/ first (e.g. amazon.md),
    then paths/ (e.g. consulting.md, pe.md, finance.md), then general.md as fallback
 

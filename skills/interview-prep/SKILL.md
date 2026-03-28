@@ -54,7 +54,7 @@ allowed-tools: [Read, Grep, Glob, WebSearch, WebFetch]
 - knowledge/values/personal.md — for culture fit and motivation questions
 - If available: output/[company]/company-brief.md — use company intel to tailor
 - interview-type (if specified): recruiter-screen / technical / hiring-manager / final
-- ${CLAUDE_PLUGIN_ROOT}/.claude/resources/ — detect the company or career path and load
+- ${CLAUDE_PLUGIN_ROOT}/resources/ — detect the company or career path and load
   the matching framework. Search companies/ first (e.g. amazon.md, google.md), then
   paths/ (e.g. consulting.md, pe.md, marketplace.md), then fall back to general.md.
 
